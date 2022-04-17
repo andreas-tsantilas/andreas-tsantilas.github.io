@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Some Recent Talks"
+title: "Lecture Notes"
 permalink: /notes/
 author_profile: true
 ---
