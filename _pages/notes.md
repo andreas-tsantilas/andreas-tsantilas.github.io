@@ -26,5 +26,5 @@ From the course MATH-UA 328 with Professor Jalal Shatah.
 ### Linear Algebra ([PDF](http://andreas-tsantilas.github.io/files/hla_notes.pdf))
 From the course MATH-UA 140 with Professor Sylvia Serfaty.
 
-### Electricity and Magnetism ([PDF](http://andreas-tsantilas.github.io/files/EM_notes.pdf))
+### Electricity and Magnetism ([PDF](http://andreas-tsantilas.github.io/files/EM_Notes.pdf))
 From the course PHYS-UA 93 with Professor David W. Hogg.
