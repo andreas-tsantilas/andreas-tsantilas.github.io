@@ -124,9 +124,9 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $serif;
-$header-font-family         : $serif;
-$caption-font-family        : $serif;
+$global-font-family: $serif !default;
+$header-font-family: $serif !default;
+$caption-font-family: $serif !default;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
