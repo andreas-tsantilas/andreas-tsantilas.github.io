@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+# Welcome to Jekyll
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -6,8 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+remote_theme             : "mmistakes/minimal-mistakes"
 locale                   : "en-US"
-theme                     : minimal-mistakes-jekyll
+#theme                    : minimal-mistakes-jekyll
 minimal_mistakes_skin    : "dark" #default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 title                    : "Andreas Tsantilas"
 title_separator          : "-"
