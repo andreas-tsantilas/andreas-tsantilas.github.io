@@ -7,6 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
+minimal_mistakes_skin    : "dark" #default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 title                    : "Andreas Tsantilas"
 title_separator          : "-"
 name                     : &name "Andreas Tsantilas"
