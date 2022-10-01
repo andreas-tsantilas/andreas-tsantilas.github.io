@@ -5,6 +5,100 @@
 /*
    Typography
    ========================================================================== */
+@font-face {
+	font-family: 'Computer Modern';
+	src: url('/assets/fonts/cmunrm.eot');
+	src: url('/assets/fonts/cmunrm.eot?#iefix') format('embedded-opentype'),
+		 url('/assets/fonts/cmunrm.woff') format('woff'),
+		 url('/assets/fonts/cmunrm.ttf') format('truetype'),
+		 url('/assets/fonts/cmunrm.svg#cmunrm') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern';
+	src: url('/assets/fonts/cmunbx.eot');
+	src: url('/assets/fonts/cmunbx.eot?#iefix') format('embedded-opentype'),
+		 url('/assets/fonts/cmunbx.woff') format('woff'),
+		 url('/assets/fonts/cmunbx.ttf') format('truetype'),
+		 url('/assets/fonts/cmunbx.svg#cmunbx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern';
+	src: url('/assets/fonts/cmunti.eot');
+	src: url('/assets/fonts/cmunti.eot?#iefix') format('embedded-opentype'),
+		 url('/assets/fonts/cmunti.woff') format('woff'),
+		 url('/assets/fonts/cmunti.ttf') format('truetype'),
+		 url('/assets/fonts/cmunti.svg#cmunti') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern';
+	src: url('/assets/fonts/cmunbi.eot');
+	src: url('/assets/fonts/cmunbi.eot?#iefix') format('embedded-opentype'),
+		 url('/assets/fonts/cmunbi.woff') format('woff'),
+		 url('/assets/fonts/cmunbi.ttf') format('truetype'),
+		 url('/assets/fonts/cmunbi.svg#cmunbi') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('/assets/fonts/cmunss.eot');
+	src: url('/assets/fonts/cmunss.eot?#iefix') format('embedded-opentype'),
+		 url('/assets/fonts/cmunss.woff') format('woff'),
+		 url('/assets/fonts/cmunss.ttf') format('truetype'),
+		 url('/assets/fonts/cmunss.svg#cmunss') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('/assets/fonts/cmunsx.eot');
+	src: url('/assets/fonts/cmunsx.eot?#iefix') format('embedded-opentype'),
+		 url('/assets/fonts/cmunsx.woff') format('woff'),
+		 url('/assets/fonts/cmunsx.ttf') format('truetype'),
+		 url('/assets/fonts/cmunsx.svg#cmunsx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('/assets/fonts/cmunsi.eot');
+	src: url('/assets/fonts/cmunsi.eot?#iefix') format('embedded-opentype'),
+		 url('/assets/fonts/cmunsi.woff') format('woff'),
+		 url('/assets/fonts/cmunsi.ttf') format('truetype'),
+		 url('/assets/fonts/cmunsi.svg#cmunsi') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('/assets/fonts/cmunso.eot');
+	src: url('/assets/fonts/cmunso.eot?#iefix') format('embedded-opentype'),
+		 url('/assets/fonts/cmunso.woff') format('woff'),
+		 url('/assets/fonts/cmunso.ttf') format('truetype'),
+		 url('/assets/fonts/cmunso.svg#cmunso') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
 
 $doc-font-size              : 16;
 
@@ -13,9 +107,11 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+
+$serif: 'Computer Modern', Georgia, Times, serif !default;
+$sans-serif: 'Computer Modern Sans', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+	     "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -28,8 +124,8 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$global-font-family         : $serif;
+$header-font-family         : $serif;
 $caption-font-family        : $serif;
 
 /* type scale */
