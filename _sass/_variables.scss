@@ -5,6 +5,8 @@
 /*
    Typography
    ========================================================================== */
+$doc-font-size: 16 !default;
+
 @font-face {
 	font-family: 'Computer Modern';
 	src: url('/assets/fonts/cmunrm.eot');
@@ -100,29 +102,26 @@
 }
 
 
-$doc-font-size              : 16;
-
 /* paragraph indention */
-$paragraph-indent           : false; // true, false (default)
-$indent-var                 : 1.3em;
+$paragraph-indent: false !default; // true, false (default)
+$indent-var: 1.3em !default;
 
 /* system typefaces */
-
 $serif: 'Computer Modern', Georgia, Times, serif !default;
 $sans-serif: 'Computer Modern Sans', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
 	     "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
-$sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$sans-serif-narrow: $sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
 
 /* serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
+$georgia: Georgia, serif !default;
+$times: Times, serif !default;
+$bodoni: "Bodoni MT", serif !default;
+$calisto: "Calisto MT", serif !default;
+$garamond: Garamond, serif !default;
 
 $global-font-family: $serif !default;
 $header-font-family: $serif !default;
